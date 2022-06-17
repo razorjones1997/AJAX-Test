@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, #6666f5, #ff0000);
+    /* position: relative; */
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#center{
+    /* background-color: black; */
+    height: 20vh;
+    width: 20vw;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    vertical-align: auto;
+    color: white;
+}
+button:hover{
+    background-color: #FFF23E;
+    color: black;
+}
